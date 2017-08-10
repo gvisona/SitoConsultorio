@@ -1,0 +1,25 @@
+{
+  "name": "sitoconsultorio",
+  "version": "1.0.0",
+  "description": "Sito Consultorio La Famiglia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SitoConsultorio"
+  },
+  "keywords": [
+    "Consultorio",
+    "La",
+    "Famiglia",
+    "Valdagno"
+  ],
+  "author": "Giovanni Visonà",
+  "license": "ISC",
+  "dependencies": {
+    "bootswatch": "^3.3.7",
+    "express": "^4.15.4"
+  }
+}
