@@ -1,0 +1,144 @@
+/* GLOBAL */
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #e8edf3;
+    color: #232323;
+    /* $background-color */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.horizontal-container-section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #e6cf8b 2px solid;
+    align-items: stretch;
+}
+
+.horizontal-container-section h1 {
+    padding-bottom: 40px;
+    display: inline-flex;
+}
+
+.horizontal-container-section p {
+    margin: 0;
+    display: inline-flex;
+}
+
+.vertical-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 35pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* END GLOBAL */
+
+
+/* HEADER*/
+
+header {
+    background-color: #22264b;
+    color: #e8edf3;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #b56969 3px solid;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+header a {
+    color: #ffffff;
+    /* $header-font-color: #ffffff;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+/* END HEADER */
+
+
+/* NAVBAR */
+
+.topnav {
+    font-size: 16px;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+.topnav ul.navbar-nav li a {
+    background: rgba(28, 28, 28, 0.1);
+    color: #000;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.topnav .navbar-brand {
+    background: rgba(28, 28, 28, 0.0);
+    color: #000;
+}
+
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}

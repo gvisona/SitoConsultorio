@@ -1,0 +1,68 @@
+/* PRESENTATION */
+
+#presentation {
+    padding-top: 100px;
+}
+
+#presentation-content {
+    max-width: 60%;
+}
+
+#img1 {
+    max-width: 30%;
+    max-height: 20vw;
+}
+
+
+/* END PRESENTATION */
+
+
+/* WHERE */
+
+#where-content {
+    max-width: 60%;
+}
+
+#gmap_canvas img {
+    max-width: none!important;
+    background: none!important
+}
+
+
+/* END WHERE */
+
+
+/* CONTACTS */
+
+#contacts ul {
+    list-style: none;
+    margin: 10px 0 10px 0;
+}
+
+#contacts p {
+    margin: 10px 0 10px 0;
+}
+
+#contacts a {
+    margin-left: 10px;
+}
+
+
+/* END CONTACTS */
+
+
+/* OPERATORS */
+
+.operator {
+    margin: 20px 0 10px 0;
+}
+
+.operator h3 {
+    margin: 0;
+}
+
+
+/* END OPERATORS */
+
+
+/* TEMP */
