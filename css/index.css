@@ -8,12 +8,6 @@
     max-width: 60%;
 }
 
-@media (max-width:500px) {
-    #presentation-content {
-        max-width: 100%;
-    }
-}
-
 #img1 {
     max-width: 30%;
     max-height: 20vw;
@@ -31,52 +25,65 @@
     max-width: 60%;
 }
 
-@media (max-width:500px) {
+#map-div {
+    overflow: hidden;
+    width: 700px;
+    height: 440px;
+}
+
+#gmap_canvas {
+    height: 440px;
+    width: 700px;
+}
+
+@media (max-width: 750px) {
+    #map-div {
+        width: 80vw;
+        height: 440px;
+    }
+    #gmap_canvas {
+        height: 440px;
+        width: 80vw;
+    }
     #where-content {
         max-width: 80%;
     }
+    #presentation-content {
+        max-width: 100%;
+    }
 }
 
+
+}
 #gmap_canvas img {
     max-width: none!important;
     background: none!important
 }
 
-
 /* END WHERE */
 
-
 /* CONTACTS */
-
 #contacts ul {
     list-style: none;
     margin: 10px 0 10px 0;
 }
-
 #contacts p {
     margin: 10px 0 10px 0;
 }
-
 #contacts a {
     margin-left: 10px;
 }
 
-
 /* END CONTACTS */
 
-
 /* OPERATORS */
-
 .operator {
     margin: 20px 0 10px 0;
 }
-
 .operator h3 {
     margin: 0;
 }
 
-
 /* END OPERATORS */
-
 
 /* TEMP */
