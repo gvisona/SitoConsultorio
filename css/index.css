@@ -8,9 +8,17 @@
     max-width: 60%;
 }
 
+@media (max-width:500px) {
+    #presentation-content {
+        max-width: 100%;
+    }
+}
+
 #img1 {
     max-width: 30%;
     max-height: 20vw;
+    min-width: 300px;
+    min-height: 200px;
 }
 
 
@@ -21,6 +29,12 @@
 
 #where-content {
     max-width: 60%;
+}
+
+@media (max-width:500px) {
+    #where-content {
+        max-width: 80%;
+    }
 }
 
 #gmap_canvas img {

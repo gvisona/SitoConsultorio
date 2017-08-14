@@ -37,7 +37,7 @@ body {
 }
 
 .horizontal-container-section p {
-    margin: 0;
+    margin: 0 0 20px 0;
     display: inline-flex;
 }
 
@@ -54,91 +54,64 @@ ul {
 
 h1 {
     font-size: 35pt;
+    color: #438496;
+}
+
+h3 {
+    color: #015249;
 }
 
 a {
     text-decoration: none;
+    color: #286da8;
 }
 
 a:hover {
     text-decoration: none;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+@media (max-width:500px) {
+    body {
+        font-size: 12pt;
+    }
+    .horizontal-container-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1 {
+        font-size: 30pt;
+    }
+    h2 {
+        font-size: 18pt;
+    }
+}
+
 
 /* END GLOBAL */
 
 
-/* HEADER*/
-
-header {
-    background-color: #22264b;
-    color: #e8edf3;
-    padding-top: 20px;
-    min-height: 70px;
-    border-bottom: #b56969 3px solid;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-}
-
-header a {
-    color: #ffffff;
-    /* $header-font-color: #ffffff;*/
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-
-/* END HEADER */
-
-
 /* NAVBAR */
 
-.topnav {
-    font-size: 16px;
-    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
-    background: rgba(192, 192, 192, 0.9);
-    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    border-radius: 0;
 }
 
-.topnav ul.navbar-nav li a {
-    background: rgba(28, 28, 28, 0.1);
-    color: #000;
+.dropdown-menu {
+    padding: 0;
+    border: 0;
+    background-color: #375a7f;
 }
 
-.topnav ul.navbar-nav li a:hover,
-.topnav ul.navbar-nav li a:focus {
-    background: rgba(255, 255, 255, 0.5);
-    color: #000;
-}
-
-.topnav .navbar-brand {
-    background: rgba(28, 28, 28, 0.0);
-    color: #000;
-}
-
-.topnav .navbar-brand:hover,
-.topnav .navbar-brand:focus {
-    background: rgba(255, 255, 255, 0.5);
-    color: #000;
+.dropdown-menu li a:hover {
+    color: #0ce3ac;
 }
