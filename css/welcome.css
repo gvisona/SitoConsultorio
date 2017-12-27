@@ -1,0 +1,36 @@
+#welcome-section {
+    padding-top: 0px;
+}
+
+#welcome-figure {
+    display: inline-flex;
+    max-width: 90%;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome-image {
+    max-width: 70%;
+}
+
+#welcome-content {
+    align-items: center;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #286da8;
+    color: #e8edf3;
+    font-size: 30px;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 750px) {
+    input[type=submit] {
+        font-size: 20px;
+    }
+}
